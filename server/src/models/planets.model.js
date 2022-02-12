@@ -44,4 +44,6 @@ export function loadPlanetsData() {
   });
 }
 
-export { planets };
+export function getAllPlanets() {
+  return planets;
+}
